@@ -91,7 +91,7 @@ export default function AboutUs() {
           <Button
             variant="primary"
             size="sm"
-            onClick={() => (window.location.href = "/mitgliedschaft/antrag")}
+            onClick={() => (window.location.href = "/membership/application")}
           >
             Mitglied werden
           </Button>
@@ -289,7 +289,7 @@ export default function AboutUs() {
                 variant="primary"
                 size="xl"
                 onClick={() =>
-                  (window.location.href = "/mitgliedschaft/antrag")
+                  (window.location.href = "/membership/application")
                 }
               >
                 Jetzt Mitglied werden

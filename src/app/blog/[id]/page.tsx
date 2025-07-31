@@ -103,7 +103,7 @@ export default function BlogDetailPage() {
   };
 
   const ctaButton = (
-    <Link href="/mitgliedschaft/antrag">
+    <Link href="/membership/application">
       <Button variant="primary" size="sm">
         Mitglied werden
       </Button>
@@ -195,7 +195,7 @@ export default function BlogDetailPage() {
                 Starten Sie noch heute Ihren Weg zu legalem und
                 verantwortungsvollem Cannabis-Konsum.
               </p>
-              <Link href="/mitgliedschaft/antrag">
+              <Link href="/membership/application">
                 <Button variant="primary" size="lg">
                   Jetzt Mitglied werden
                 </Button>

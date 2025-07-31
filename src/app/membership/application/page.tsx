@@ -471,7 +471,7 @@ export default function MembershipApplication() {
         isOpen={showSuccessModal}
         onClose={() => {
           setShowSuccessModal(false);
-          window.location.href = "/mitgliedschaft/erfolg";
+          window.location.href = "/membership/success";
         }}
         title="Antrag erfolgreich gesendet!"
         size="md"
@@ -493,7 +493,7 @@ export default function MembershipApplication() {
             variant="primary"
             onClick={() => {
               setShowSuccessModal(false);
-              window.location.href = "/mitgliedschaft/erfolg";
+              window.location.href = "/membership/success";
             }}
             className="w-full"
           >
