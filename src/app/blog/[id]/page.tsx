@@ -9,7 +9,6 @@ import {
   Share2,
   Leaf,
   ChevronRight,
-  Link,
 } from "lucide-react";
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
@@ -17,6 +16,7 @@ import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { LoadingIndicator } from "@/components/ui/Spinner";
 import { Article, Author, NavigationItem } from "@/types";
+import Link from "next/link";
 
 const mockAuthor: Author = {
   name: "Christian M. Lux",

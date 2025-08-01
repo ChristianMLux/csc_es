@@ -114,7 +114,7 @@ export default function ContactPage() {
       <Navbar
         navigation={navigation}
         ctaButton={
-          <Link href="/mitgliedschaft/antrag">
+          <Link href="/membership/application">
             <Button variant="primary" size="sm">
               Mitglied werden
             </Button>
